@@ -7,5 +7,6 @@ Rails.application.routes.draw do
   end
   namespace :ws do
     resources :pokemons
+    resources :abilities
   end
 end
