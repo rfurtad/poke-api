@@ -1,24 +1,31 @@
-# README
+<h1 align="center">Welcome to Poke-Api 👋</h1>
+<p>
+  <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
+</p>
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+> 📚 A small API to get some pokemons
 
-Things you may want to cover:
+## Instalation
+1. Install rails dependencies
+```bash
+ bundle install
+```
 
-* Ruby version
+## Execute
+1. Start rails
+```bash
+rails s
+```
 
-* System dependencies
+## Executing tests
+1. Preparing database
+```bash
+rake db:test:prepare
+```
+2. Starting tests
+```bash
+rspec spec/
+```
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## 👤 Authors
+* Roberto Furtado
